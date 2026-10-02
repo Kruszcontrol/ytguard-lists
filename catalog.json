@@ -1,0 +1,52 @@
+{
+  "lists": [
+    {
+      "title": "Young kids — basics",
+      "description": "Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, and news.",
+      "ages": "0-8",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/young-kids-basics.txt",
+      "tags": [
+        "basics"
+      ]
+    },
+    {
+      "title": "Scary and horror",
+      "description": "Hides horror, gore and creepypasta; needs a parent's OK for spooky games and mascot-horror (Poppy Playtime, FNAF and similar) that target kids.",
+      "ages": "0-12",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/scary-and-horror.txt"
+    },
+    {
+      "title": "Violence and weapons",
+      "description": "Hides graphic violence; needs a parent's OK for fights, guns and true crime. (Nerf and toy guns also need an OK — allow them yourself if you're fine with them.)",
+      "ages": "0-12",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/violence-and-weapons.txt"
+    },
+    {
+      "title": "Mature and adult content",
+      "description": "Hides sexual and adult content; needs a parent's OK for alcohol, drugs, vaping and swearing in titles.",
+      "ages": "0-15",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/mature-content.txt"
+    },
+    {
+      "title": "Dangerous challenges and pranks",
+      "description": "Hides known dangerous viral challenges; needs a parent's OK for prank videos.",
+      "ages": "0-15",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/dangerous-challenges-and-pranks.txt"
+    },
+    {
+      "title": "Gambling and scams",
+      "description": "Hides free-Robux/V-Bucks scams; needs a parent's OK for gambling, loot boxes, case openings and betting.",
+      "ages": "0-17",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/gambling-and-scams.txt"
+    },
+    {
+      "title": "Brainrot and meme spam",
+      "description": "Needs a parent's OK for \"brainrot\" meme content (Skibidi, Italian brainrot, sigma/rizz edits and similar). Optional — choose it if you want less of this.",
+      "ages": "0-12",
+      "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/brainrot.txt",
+      "tags": [
+        "optional"
+      ]
+    }
+  ]
+}

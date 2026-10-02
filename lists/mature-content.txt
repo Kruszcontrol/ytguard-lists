@@ -1,0 +1,44 @@
+! Title: Mature and adult content
+! Description: Hides sexual and adult content; needs a parent's OK for alcohol, drugs, vaping and swearing in titles.
+! Ages: 0-15
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+keyword(title,description,tags): nsfw
+keyword(title,tags): 18+
+keyword(title,description,tags): porn
+keyword(title,description,tags): onlyfans
+keyword(title,tags): hentai
+keyword(title,tags): sexy
+keyword(title,tags): sex
+keyword(title,tags): stripper
+keyword(title,tags): twerk
+keyword(title,tags): lingerie
+keyword(title,tags): uncensored
+keyword(title,tags): hookup
+keyword(title,tags): adult only
+keyword(title,tags): adults only
+
+[block deny]
+keyword: nude
+keyword: naked
+keyword: drunk
+keyword: alcohol
+keyword: beer
+keyword: vodka
+keyword: whiskey
+keyword: vape
+keyword: vaping
+keyword: weed
+keyword: cannabis
+keyword: marijuana
+keyword: drugs
+keyword: smoking
+keyword: bikini
+keyword: dating
+keyword: wtf
+keyword(regex): \bf[\*u@#]+c?k
+keyword(regex): \bsh[\*i!]t\b
+keyword(regex): \bb[\*i!]tch

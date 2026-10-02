@@ -1,0 +1,15 @@
+! Title: Young kids — basics
+! Description: Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, and news.
+! Ages: 0-8
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+attribute: not_family_safe
+
+[block deny]
+attribute: live
+attribute: longer_than:30
+attribute: not_made_for_kids
+category: News & Politics

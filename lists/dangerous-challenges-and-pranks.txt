@@ -1,0 +1,28 @@
+! Title: Dangerous challenges and pranks
+! Description: Hides known dangerous viral challenges; needs a parent's OK for prank videos.
+! Ages: 0-15
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+keyword(title,description,tags): blackout challenge
+keyword(title,description,tags): choking challenge
+keyword(title,description,tags): pass out challenge
+keyword(title,description,tags): tide pod
+keyword(title,description,tags): skull breaker
+keyword(title,description,tags): outlet challenge
+keyword(title,description,tags): penny challenge
+keyword(title,description,tags): benadryl challenge
+keyword(title,description,tags): fire challenge
+keyword(title,description,tags): car surfing
+keyword(title,description,tags): train surfing
+keyword(title,description,tags): fainting game
+
+[block deny]
+keyword: prank
+keyword: pranks
+keyword: pranked
+keyword: pranking
+keyword: trolling
+keyword: don't try this

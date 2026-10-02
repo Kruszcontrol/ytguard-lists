@@ -1,0 +1,33 @@
+name: check
+on:
+  push:
+  pull_request:
+
+jobs:
+  lists:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Kruszcontrol/ytguard
+          path: .ytguard
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: .ytguard/go.mod
+      - name: Build ytguard
+        run: cd .ytguard && go build -o ../ytguard ./cmd/ytguard
+      - name: Check lists
+        run: ./ytguard list-check lists/*.txt
+      - name: Check catalog
+        run: |
+          python3 - <<'PY'
+          import json, os
+          c = json.load(open("catalog.json"))
+          prefix = "https://raw.githubusercontent.com/" + os.environ["GITHUB_REPOSITORY"] + "/main/"
+          for e in c["lists"]:
+              assert e["title"] and e["url"].startswith("https://"), e
+              if e["url"].startswith(prefix):
+                  assert os.path.exists(e["url"][len(prefix):]), "missing file for " + e["url"]
+          print(len(c["lists"]), "catalog entries OK")
+          PY

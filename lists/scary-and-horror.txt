@@ -1,0 +1,38 @@
+! Title: Scary and horror
+! Description: Hides horror, gore and creepypasta; needs a parent's OK for spooky games and mascot-horror (Poppy Playtime, FNAF and similar) that target kids.
+! Ages: 0-12
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+keyword(title,description,tags): creepypasta
+keyword(title,description,tags): jumpscare
+keyword(title,description,tags): jump scare
+keyword(title,tags): horror
+keyword(title,tags): gore
+keyword(title,tags): slasher
+keyword(title,tags): serial killer
+keyword(title,tags): exorcism
+keyword(title,tags): possessed
+keyword(title,tags): skinwalker
+keyword(title,tags): analog horror
+keyword(title,tags): siren head
+keyword(regex,title): \b3\s?a\.?m\.?\b.*\b(challenge|haunted|scary|ghost)
+
+[block deny]
+keyword: scary
+keyword: haunted
+keyword: creepy
+keyword: paranormal
+keyword: demon
+keyword: cursed
+keyword: backrooms
+keyword: scp
+keyword: fnaf
+keyword(substring): five nights at freddy
+keyword: poppy playtime
+keyword: huggy wuggy
+keyword: cartoon cat
+keyword: garten of banban
+keyword: smiling critters

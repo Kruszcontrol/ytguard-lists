@@ -1,0 +1,38 @@
+! Title: Violence and weapons
+! Description: Hides graphic violence; needs a parent's OK for fights, guns and true crime. (Nerf and toy guns also need an OK — allow them yourself if you're fine with them.)
+! Ages: 0-12
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+keyword(title,description,tags): graphic content
+keyword(title,description,tags): viewer discretion
+keyword(title,tags): gore
+keyword(title,tags): beheading
+keyword(title,tags): execution video
+keyword(title,tags): massacre
+keyword(title,tags): school shooting
+keyword(title,tags): bodycam
+keyword(title,tags): killed on camera
+
+[block deny]
+keyword: murder
+keyword: fight
+keyword: fights
+keyword: street fight
+keyword: knockout
+keyword: brawl
+keyword: gun
+keyword: guns
+keyword: rifle
+keyword: pistol
+keyword: shooting
+keyword: sniper
+keyword: knife
+keyword: true crime
+keyword: crime
+keyword: war
+keyword: combat footage
+keyword: gta
+keyword(substring): grand theft auto

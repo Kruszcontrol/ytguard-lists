@@ -1,0 +1,29 @@
+! Title: Gambling and scams
+! Description: Hides free-Robux/V-Bucks scams; needs a parent's OK for gambling, loot boxes, case openings and betting.
+! Ages: 0-17
+! Homepage: https://github.com/Kruszcontrol/ytguard-lists
+! License: CC0-1.0
+! Version: 2026-10-02
+
+[hide deny]
+keyword(title,description): free robux
+keyword(title,description): robux generator
+keyword(title,description): free v-bucks
+keyword(title,description): free vbucks
+keyword(title,description): v-bucks generator
+keyword(title,description): free gift card
+
+[block deny]
+keyword: gambling
+keyword: casino
+keyword: slots
+keyword: slot machine
+keyword: betting
+keyword: sports betting
+keyword: roulette
+keyword: blackjack
+keyword: poker
+keyword: case opening
+keyword: loot box
+keyword: lootbox
+keyword: crate opening
