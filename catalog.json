@@ -2,7 +2,7 @@
   "lists": [
     {
       "title": "Young kids — basics",
-      "description": "Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, and news.",
+      "description": "Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, news, and adult cartoons (Family Guy, South Park, Rick and Morty and similar).",
       "ages": "0-8",
       "url": "https://raw.githubusercontent.com/Kruszcontrol/ytguard-lists/main/lists/young-kids-basics.txt",
       "tags": [

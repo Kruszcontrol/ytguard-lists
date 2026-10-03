@@ -3,7 +3,7 @@
 ! Ages: 0-12
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 keyword(title,description,tags): graphic content
@@ -15,6 +15,16 @@ keyword(title,tags): massacre
 keyword(title,tags): school shooting
 keyword(title,tags): bodycam
 keyword(title,tags): killed on camera
+keyword(title,tags): torture
+keyword(title,tags): mutilated
+keyword(title,tags): decapitation
+keyword(title,tags): terrorist attack
+keyword(title,tags): mass shooting
+keyword(title,tags): animal cruelty
+keyword(title,tags): dog fighting
+keyword(title,tags): cockfight
+keyword(title,tags): liveleak
+keyword(title,tags): war crimes
 
 [block deny]
 keyword: murder
@@ -36,3 +46,20 @@ keyword: war
 keyword: combat footage
 keyword: gta
 keyword(substring): grand theft auto
+keyword: squid game
+keyword: mortal kombat
+keyword: fatality
+keyword: fatalities
+keyword: call of duty
+keyword: warzone
+keyword: ufc
+keyword: gangster
+keyword: gang fight
+keyword: gang violence
+keyword: cartel
+keyword: police chase
+keyword: car crash
+keyword: car crashes
+keyword: bloody
+keyword: killer
+keyword: assassination

@@ -3,7 +3,7 @@
 ! Ages: 0-17
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 keyword(title,description): free robux
@@ -12,6 +12,13 @@ keyword(title,description): free v-bucks
 keyword(title,description): free vbucks
 keyword(title,description): v-bucks generator
 keyword(title,description): free gift card
+keyword(title,description): robux hack
+keyword(title,description): vbucks hack
+keyword(title,description): v-bucks hack
+keyword(title,description): free skins
+keyword(title,description): script executor
+keyword(title,description): roblox exploit
+keyword(title,description): roblox executor
 
 [block deny]
 keyword: gambling
@@ -27,3 +34,22 @@ keyword: case opening
 keyword: loot box
 keyword: lootbox
 keyword: crate opening
+keyword: plinko
+keyword: crash gambling
+keyword: stake casino
+keyword: mystery box
+keyword: mystery boxes
+keyword: crypto
+keyword: bitcoin
+keyword: forex
+keyword: day trading
+keyword: get rich quick
+keyword: make money online
+keyword: betting tips
+keyword: parlay
+keyword: fanduel
+keyword: draftkings
+keyword: lottery
+keyword: gacha
+keyword: scratch cards
+keyword: sweepstakes casino

@@ -3,15 +3,28 @@
 ! Ages: 0-12
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [block deny]
 keyword: skibidi
 keyword: brainrot
 keyword: italian brainrot
-keyword: sigma
 keyword: rizz
 keyword: gyatt
 keyword: fanum tax
 keyword: mewing
 keyword: tung tung
+keyword: tralalero
+keyword: bombardiro
+keyword: ballerina cappuccina
+keyword: patapim
+keyword: only in ohio
+keyword: sigma male
+keyword: sigma edit
+keyword: aura farming
+keyword: goofy ahh
+keyword: looksmaxxing
+keyword: quandale dingle
+keyword: baby gronk
+keyword: grimace shake
+keyword: sprunki

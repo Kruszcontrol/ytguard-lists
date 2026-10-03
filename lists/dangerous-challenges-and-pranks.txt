@@ -3,7 +3,7 @@
 ! Ages: 0-15
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 keyword(title,description,tags): blackout challenge
@@ -18,6 +18,26 @@ keyword(title,description,tags): fire challenge
 keyword(title,description,tags): car surfing
 keyword(title,description,tags): train surfing
 keyword(title,description,tags): fainting game
+keyword(title,description,tags): nyquil chicken
+keyword(title,description,tags): sleepy chicken
+keyword(title,description,tags): milk crate challenge
+keyword(title,description,tags): kia challenge
+keyword(title,description,tags): kia boys
+keyword(title,description,tags): devious lick
+keyword(title,description,tags): orbeez challenge
+keyword(title,description,tags): salt and ice challenge
+keyword(title,description,tags): cinnamon challenge
+keyword(title,description,tags): hot water challenge
+keyword(title,description,tags): boiling water challenge
+keyword(title,description,tags): eraser challenge
+keyword(title,description,tags): fire spray challenge
+keyword(title,description,tags): scarf game
+keyword(title,description,tags): chroming
+keyword(title,description,tags): dry scooping
+keyword(title,description,tags): magnet challenge
+keyword(title,description,tags): momo challenge
+keyword(title,tags): gone sexual
+keyword(title,tags): kidnapping prank
 
 [block deny]
 keyword: prank
@@ -26,3 +46,10 @@ keyword: pranked
 keyword: pranking
 keyword: trolling
 keyword: don't try this
+keyword: one chip challenge
+keyword: gone wrong
+keyword: social experiment
+keyword: scare prank
+keyword: 911 prank
+keyword: prank call
+keyword: prank calls

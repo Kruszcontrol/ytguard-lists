@@ -3,7 +3,7 @@
 ! Ages: 0-12
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 keyword(title,description,tags): creepypasta
@@ -19,6 +19,18 @@ keyword(title,tags): skinwalker
 keyword(title,tags): analog horror
 keyword(title,tags): siren head
 keyword(regex,title): \b3\s?a\.?m\.?\b.*\b(challenge|haunted|scary|ghost)
+keyword(title,tags): creepy pasta
+keyword(title,tags): slenderman
+keyword(title,tags): slender man
+keyword(title,tags): jeff the killer
+keyword(title,tags): momo
+keyword(title,tags): ben drowned
+keyword(title,tags): dead body
+keyword(title,tags): corpse
+keyword(title,tags): autopsy
+keyword(title,tags): disturbing
+keyword(title,tags): demonic
+keyword(title,tags): satanic
 
 [block deny]
 keyword: scary
@@ -36,3 +48,17 @@ keyword: huggy wuggy
 keyword: cartoon cat
 keyword: garten of banban
 keyword: smiling critters
+keyword: spooky
+keyword: urbex
+keyword: abandoned asylum
+keyword: abandoned hospital
+keyword: ouija
+keyword: mascot horror
+keyword(substring): bendy and the ink machine
+keyword: hello neighbor
+keyword: baldi
+keyword: rainbow friends
+keyword: catnap
+keyword: sprunki
+keyword: the boiled one
+keyword: dark deception

@@ -10,7 +10,7 @@ Your own filter entries in YTGuard always beat a list's entry of the same type, 
 
 | List | Ages | What it does |
 |---|---|---|
-| [Young kids — basics](lists/young-kids-basics.txt) | 0–8 | Hides what YouTube marks not family-safe; parent's OK for live streams, videos over 30 min, news |
+| [Young kids — basics](lists/young-kids-basics.txt) | 0–8 | Hides what YouTube marks not family-safe; parent's OK for live streams, videos over 30 min, news, adult cartoons |
 | [Scary and horror](lists/scary-and-horror.txt) | 0–12 | Hides horror, gore, creepypasta; OK needed for spooky games and mascot-horror |
 | [Violence and weapons](lists/violence-and-weapons.txt) | 0–12 | Hides graphic violence; OK needed for fights, guns, true crime |
 | [Mature and adult content](lists/mature-content.txt) | 0–15 | Hides sexual/adult content; OK needed for alcohol, drugs, swearing |
@@ -20,7 +20,9 @@ Your own filter entries in YTGuard always beat a list's entry of the same type, 
 
 **Suggested combinations:** under 9 — all of them; 9–12 — all except *Young kids — basics*; 13–15 — *Mature*, *Dangerous challenges*, *Gambling*.
 
-"Hide" means the video never appears. "OK needed" (Block) means it shows with a lock and the kid can ask you.
+When you subscribe, you choose what each list does with its entries: **Block** (the default; matching videos show with a lock and
+the kid can ask you), **Hide** (they never appear), or **Mixed** (the list's own marking per entry: clearly inappropriate entries are
+in `[hide deny]`, borderline ones in `[block deny]`). The "Hides / OK needed" wording above describes Mixed.
 The YTGuard app reads [`catalog.json`](catalog.json) to show these as recommended lists.
 
 ## List format
@@ -62,9 +64,11 @@ YTGuard skips lines it doesn't understand and shows them as warnings.
 
 Pull requests welcome. Please:
 
-1. **Hide only what's clearly inappropriate** for every kid in the list's age range. Use Block for borderline content, so a kid can still ask.
+1. **Mark as `[hide deny]` only what's clearly inappropriate** for every kid in the list's age range, and use `[block deny]` for borderline content.
+   (Parents can override this per list, but the marking is what "Mixed" uses.)
 2. **Avoid false positives.** Prefer whole words and specific phrases; think of innocent titles that would match
-   (e.g. "graphic" would hide graphic-design videos — use "graphic content"). Mention what you checked in the PR.
+   (e.g. "graphic" would catch graphic-design videos, "gang" catches *Gang Beasts*, "sigma" catches maths — use
+   "graphic content", "gang violence", "sigma male"). Mention what you checked in the PR.
 3. **Channels:** use the channel ID (`UC…`, from the channel page's "Share channel" → "Copy channel ID") plus the @handle and name,
    and explain why in the PR. One-off videos are better reported as a video entry than blocking a whole channel.
 4. Bump `! Version:` to today's date.

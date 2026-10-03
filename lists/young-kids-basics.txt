@@ -1,9 +1,9 @@
 ! Title: Young kids — basics
-! Description: Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, and news.
+! Description: Sensible defaults for young children: hides videos YouTube itself marks as not family-safe, and needs a parent's OK for live streams, very long videos, news, and adult cartoons (Family Guy, South Park, Rick and Morty and similar).
 ! Ages: 0-8
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 attribute: not_family_safe
@@ -13,3 +13,14 @@ attribute: live
 attribute: longer_than:30
 attribute: not_made_for_kids
 category: News & Politics
+keyword: family guy
+keyword: south park
+keyword: rick and morty
+keyword: big mouth
+keyword: american dad
+keyword: bojack
+keyword: beavis
+keyword: adult swim
+keyword: adult animation
+keyword: helluva boss
+keyword: hazbin hotel

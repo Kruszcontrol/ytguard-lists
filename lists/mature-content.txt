@@ -3,7 +3,7 @@
 ! Ages: 0-15
 ! Homepage: https://github.com/Kruszcontrol/ytguard-lists
 ! License: CC0-1.0
-! Version: 2026-10-02
+! Version: 2026-10-02.2
 
 [hide deny]
 keyword(title,description,tags): nsfw
@@ -20,6 +20,19 @@ keyword(title,tags): uncensored
 keyword(title,tags): hookup
 keyword(title,tags): adult only
 keyword(title,tags): adults only
+keyword(title,description,tags): xxx
+keyword(title,tags): erotic
+keyword(title,tags): fetish
+keyword(title,tags): pornstar
+keyword(title,tags): thirst trap
+keyword(title,tags): sugar daddy
+keyword(title,tags): strip club
+keyword(title,tags): playboy
+keyword(title,tags): twerking
+keyword(title,tags): sexual
+keyword(title,tags): sexiest
+keyword(title,tags): gooning
+keyword(regex,title,tags): \bn[i1!\*]gg(a|er)s?\b
 
 [block deny]
 keyword: nude
@@ -42,3 +55,23 @@ keyword: wtf
 keyword(regex): \bf[\*u@#]+c?k
 keyword(regex): \bsh[\*i!]t\b
 keyword(regex): \bb[\*i!]tch
+keyword: make out
+keyword: making out
+keyword: thicc
+keyword: hot girls
+keyword: hangover
+keyword: wine tasting
+keyword: drinking wine
+keyword: booty shake
+keyword: cigarette
+keyword: cigarettes
+keyword: 420
+keyword: edibles
+keyword: stoned
+keyword: cocaine
+keyword: meth
+keyword: xanax
+keyword: rehab
+keyword(regex): \ba+ss+hole
+keyword(regex): \bc[\*u]nt\b
+keyword(regex): \bd[\*i]ck\b
