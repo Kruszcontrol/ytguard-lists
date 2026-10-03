@@ -20,9 +20,9 @@ Your own filter entries in YTGuard always beat a list's entry of the same type, 
 
 **Suggested combinations:** under 9 — all of them; 9–12 — all except *Young kids — basics*; 13–15 — *Mature*, *Dangerous challenges*, *Gambling*.
 
-When you subscribe, you choose what each list does with its entries: **Block** (the default; matching videos show with a lock and
-the kid can ask you), **Hide** (they never appear), or **Mixed** (the list's own marking per entry: clearly inappropriate entries are
-in `[hide deny]`, borderline ones in `[block deny]`). The "Hides / OK needed" wording above describes Mixed.
+When you subscribe, you choose what each list does with its entries: **Mixed** (the default — the list's own marking per entry:
+clearly inappropriate entries are in `[hide deny]` and never appear, borderline ones are in `[block deny]` and show with a lock so the
+kid can ask you), **Block everything**, or **Hide everything**. The "Hides / OK needed" wording above describes Mixed.
 The YTGuard app reads [`catalog.json`](catalog.json) to show these as recommended lists.
 
 ## List format
@@ -65,7 +65,7 @@ YTGuard skips lines it doesn't understand and shows them as warnings.
 Pull requests welcome. Please:
 
 1. **Mark as `[hide deny]` only what's clearly inappropriate** for every kid in the list's age range, and use `[block deny]` for borderline content.
-   (Parents can override this per list, but the marking is what "Mixed" uses.)
+   (Mixed — the default — uses this marking; parents can switch a list to block or hide everything.)
 2. **Avoid false positives.** Prefer whole words and specific phrases; think of innocent titles that would match
    (e.g. "graphic" would catch graphic-design videos, "gang" catches *Gang Beasts*, "sigma" catches maths — use
    "graphic content", "gang violence", "sigma male"). Mention what you checked in the PR.
